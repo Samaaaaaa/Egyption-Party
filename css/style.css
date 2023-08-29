@@ -1,0 +1,137 @@
+.home{
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)),
+    url(../images/events-heavenly-header.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.home h1{
+    Font-size: 60px;
+    Font-weight: 500;
+    Line-height: 72px;
+    color: rgb(255, 255, 255);
+}
+.home p{
+    color: white;
+}
+
+.side{
+    height: 100vh;
+    width: 270px;
+    z-index: 10;
+    left: -270px;
+    top: 0px;
+    background-color: black;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+.side ul li a{
+    display: block;
+    font-size: 22px;
+    padding: 20px 8px 20px 0px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.side ul li a:hover{
+    color: rgba(214, 46, 51 , 0.4);
+}
+
+.side ul .close{
+    color: white;
+    font-size: 30px;
+    right: 10px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.side ul .close:hover{
+    color: rgba(214, 46, 51 , 0.4);
+}
+
+.openItem{
+    right: -115px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+
+/* accordion */
+
+.accordi h3{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.75rem;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+.accordi > div{
+    background-color: #cccccc;
+    line-height: 1.7;
+    display: none;
+}
+
+/* time */
+
+#time{
+    height: 40vh;
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)),
+     url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: contain;
+
+}
+#time p{
+    padding: 50px;
+    border: 2px solid white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#time .container{
+    padding: 75px 0px;
+}
+
+/* contact */
+
+#contact i{
+    font-size: 20px;
+    padding-right:10px ;
+    color: rgba(214, 46, 51 , 0.6);
+}
+#contact .icons i{
+    border: 2px solid grey;
+    margin-right: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+ 
